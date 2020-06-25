@@ -1,9 +1,9 @@
 // all javascript must be written wrapped in this event listener
 document.addEventListener('DOMContentLoaded', () => {
-    const grid = document.querySelector('.grid')
-    let squares = Array.from(document.querySelectorAll('.grid div'))
-    const ScoreDisplay = document.querySelector('#score')
-    const StartBtn = document.querySelector('#start-button')
+    const grid = document.querySelector('.grid');
+    let squares = Array.from(document.querySelectorAll('.grid div'));
+    const ScoreDisplay = document.querySelector('#score');
+    const StartBtn = document.querySelector('#start-button');
     const width = 10
 
     // The Tetriminoes
@@ -43,6 +43,21 @@ document.addEventListener('DOMContentLoaded', () => {
       ]
 
       const theTetriminoes = [lTetromino, zTetromino, tTetromino, oTetromino, iTetromino]
+
+      let currentPosition = 4
+      let current = theTetriminoes[0] [0]
+
+      console.log(theTetriminoes)
+
+    //   draw the first rotation in the first tetromino
+      function draw() {
+          current.forEach(index => {
+              squares[currentPosition + index].classList.add('tetromino')
+          })
+      }
+
+      draw()
+
 })
 
 
