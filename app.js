@@ -2,8 +2,8 @@
 document.addEventListener('DOMContentLoaded', () => {
     const grid = document.querySelector('.grid');
     let squares = Array.from(document.querySelectorAll('.grid div'));
-    const ScoreDisplay = document.querySelector('#score');
-    const StartBtn = document.querySelector('#start-button');
+    const scoreDisplay = document.querySelector('#score');
+    const startBtn = document.querySelector('#start-button');
     const width = 10
 
     // The Tetriminoes
@@ -97,15 +97,19 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // freeze function
     function freeze() {
-        if(current.some(index => squares[currentPosition + index + width].classList.contains('taken'))){
-            current.forEach(index => squares[currentPosition + index].classList.add('taken'))
-            // start a new tetromino falling
-            random = Math.floor(Math.random() * theTetriminoes.length)
-            current = theTetriminoes[random] [currentRotation]
-            currentPosition = 4
-            draw() 
+        if(current.some(index => squares[currentPosition + index + width].classList.contains('taken'))) {
+          current.forEach(index => squares[currentPosition + index].classList.add('taken'))
+          //start a new tetromino falling
+          random = nextRandom
+          nextRandom = Math.floor(Math.random() * theTetrominoes.length)
+          current = theTetrominoes[random][currentRotation]
+          currentPosition = 4
+          draw()
+          displayShape()
+          addScore()
+          gameOver()
         }
-    }
+      }
 
     // move tetromino left unless is at the edge or there is blockage
     function moveLeft() {
@@ -170,6 +174,9 @@ document.addEventListener('DOMContentLoaded', () => {
           displaySquares[displayIndex + index].style.backgroundColor = colors[nextRandom]
         })
       }
+
+    //   add functionality to the button
+
 })
 
 
