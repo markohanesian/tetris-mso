@@ -1,3 +1,7 @@
+body {
+  background-color: black;
+}
+
 .container {
     background-color: black;
     display: grid;
@@ -12,6 +16,16 @@
     font-weight: 100;
     letter-spacing: 1rem;
     text-shadow: 0 0 1px;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  h3 {
+    text-transform: uppercase;
+    color: #c6e2ff;
+    font-family: Roboto;
+    font-size: 1rem;
   }
 
   #start-button {
