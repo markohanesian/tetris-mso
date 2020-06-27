@@ -4,6 +4,15 @@
     place-items: center;
   }
   
+  
+  h1 {
+    font-family: 'Monoton', cursive;
+    color: white;
+    font-size: 50pt;
+    font-weight: 100;
+
+  }
+
   #start-button {
     padding: 5px;
     margin: 5px;
