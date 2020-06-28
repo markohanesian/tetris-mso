@@ -2,22 +2,53 @@ body {
   background-color: black;
 }
 
+#credits {
+  color: #c6e2ff;
+  font-family: Roboto;
+  display: flex;
+  padding: 0px;
+  margin: 0;
+}
+
+#github-link {
+  color: white;
+}
+
+p {
+  padding: 7px;
+}
+
 .container {
     background-color: black;
     display: grid;
     place-items: center;
   }
   
+  #scoreandnext {
+    display: flex;
+  }
   
   h1 {
     font-family: 'Monoton', cursive;
     color: #c6e2ff;
-    font-size: 50pt;
+    font-size: 20pt;
     font-weight: 100;
     letter-spacing: 1rem;
     text-shadow: 0 0 1px;
     text-align: center;
     padding: 0px;
+    margin: 0px;
+  }
+
+  h2 {
+    font-family: 'Monoton', cursive;
+    color: #c6e2ff;
+    font-size: 30pt;
+    font-weight: 100;
+    letter-spacing: 1rem;
+    text-shadow: 0 0 1px;
+    text-align: center;
+    padding-bottom: 10px;
     margin: 0px;
   }
 
@@ -44,16 +75,17 @@ body {
   }
   
   .grid {
-    width: 200px;
-    height: 400px;
+    margin: 15px;
+    width: 250px;
+    height: 500px;
     display: flex;
     flex-wrap: wrap;
-    background-color: white;
+    background-color: #FFEAC7;
   }
   
   .grid div {
-    height: 20px;
-    width: 20px;
+    height: 25px;
+    width: 25px;
   }
   
   .tetromino {
