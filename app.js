@@ -218,6 +218,7 @@ document.addEventListener('DOMContentLoaded', () => {
       timerId = setInterval(moveDown, 1000)
       nextRandom = Math.floor(Math.random()*theTetrominoes.length)
       displayShape()
+      music()
     }
   })
 
@@ -247,6 +248,12 @@ document.addEventListener('DOMContentLoaded', () => {
       scoreDisplay.innerHTML = 'end'
       clearInterval(timerId)
     }
+  }
+
+  // Music when user clicks play button 
+  function music() {
+    var audio = new Audio('theme-song.mp3');
+    audio.play();
   }
 
 })
