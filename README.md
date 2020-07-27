@@ -18,6 +18,10 @@ This game is a project that I started to practice using javascript fundamentals,
 ## Acknowledgements
 Based off Ania Kubow's Tetris tutorial for [freeCodeCamp](https://www.youtube.com/watch?time_continue=12&v=rAUn1Lom6dw&feature=emb_logo)
 
+## License
+
+* [MIT](https://opensource.org/licenses/MIT)
+
 ![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
 ![GitHub release](https://img.shields.io/github/v/release/markohanesian/Burger-Logger)
 ![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)
