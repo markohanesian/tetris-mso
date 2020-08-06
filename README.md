@@ -3,7 +3,6 @@ Tetris-Mso
 
 ## Links
 Play the game [here](https://markohanesian.github.io/tetris-mso/)
-[Github](https://github.com/markohanesian/tetris-mso)
 
 ## How to Play
 Currently, the game is functional using your keyboard only 
