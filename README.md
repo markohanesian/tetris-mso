@@ -1,5 +1,4 @@
-# Project Title
-Tetris-Mso
+# Tetris-Mso
 
 ## Description
 Tetris MSO is a web browser game based off the original Tetris game, built with javascript for functionality and styled with CSS. 
