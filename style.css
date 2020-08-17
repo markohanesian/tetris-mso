@@ -59,6 +59,22 @@ p {
     font-size: 1rem;
   }
 
+  music/audio button
+
+  #audio-button {
+    padding: 15px;
+    margin: 10px;
+    background-color: Transparent;
+    text-transform: uppercase;
+    border: 1px outset #c6e2ff;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    color: chartreuse;
+    font-family: Roboto;
+    font-size: 1rem;
+  }
+
   #start-button {
     padding: 15px;
     margin: 10px;
