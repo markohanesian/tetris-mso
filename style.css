@@ -74,13 +74,14 @@ p {
     font-size: 1rem;
   }
   
+  /* Game background color */
   .grid {
     margin: 15px;
     width: 250px;
     height: 500px;
     display: flex;
     flex-wrap: wrap;
-    background-color: #FFEAC7;
+    background-color: white;
   }
   
   .grid div {
