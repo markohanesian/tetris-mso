@@ -14,11 +14,11 @@
       <h1>TETRIS</h1>
       <h2>2095</h2>
 
-      <!-- audio toggle button -->
 
       <div id="scoreandnext">
+        <!-- button to start playing the game -->
         <button id="start-button">start</button>
-        <button id="audio-button">music</button>        
+        <!-- small tetromino preview grid       -->
         <div class="mini-grid">
           <div></div>
           <div></div>
@@ -38,6 +38,9 @@
           <div></div>
         </div>
       </div>
+      <!-- audio toggle button -->
+      <audio controls id="myAudio" src="theme-song.mp3" preload="auto">
+      </audio>
       <h3>Score:<span id="score">0</span></h3>
       <div class="grid">
         <div></div>
