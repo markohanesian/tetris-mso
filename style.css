@@ -27,6 +27,11 @@ p {
   #scoreandnext {
     display: flex;
   }
+
+  #musicandscore {
+    display: flex;
+    flex-direction: row;
+  }
   
   h1 {
     font-family: 'Monoton', cursive;
@@ -63,18 +68,10 @@ p {
 
   /* music/audio button */
 
-  #audio-button {
-    padding: 15px;
-    margin: 10px;
-    background-color: Transparent;
-    text-transform: uppercase;
-    border: 1px outset #c6e2ff;
-    cursor:pointer;
-    overflow: hidden;
-    outline:none;
-    color: chartreuse;
-    font-family: Roboto;
-    font-size: 1rem;
+  audio {
+    width: 100px;
+    height: 54px;
+    transform: scale(.75);
   }
 
   #start-button {
