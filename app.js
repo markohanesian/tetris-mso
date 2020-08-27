@@ -265,7 +265,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   };
 
-
+alert("Welcome to Tetris-MSO! To play, use the arrow keys on your PC's keyboard")
 
 
 
